@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.novak.android.pixelcribbage">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".JackClubs"></activity>
+        <activity android:name=".JackHearts" />
+        <activity android:name=".JackSpades" />
+        <activity android:name=".JackDiamonds" />
+        <activity android:name=".QueenClubs" />
+        <activity android:name=".QueenHearts" />
+        <activity android:name=".QueenSpades" />
+        <activity android:name=".QueenDiamonds" />
+        <activity android:name=".KingClubs" />
+        <activity android:name=".KingHearts" />
+        <activity android:name=".KingSpades" />
+        <activity android:name=".KingDiamonds" />
+        <activity android:name=".BirthdayMessage" />
+        <activity android:name=".FaceCards" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
